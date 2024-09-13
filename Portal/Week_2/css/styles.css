@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  background-color: rgb(5, 27, 5);
+  padding: 3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 80%;
+  margin: 0 auto;
+  min-width: 100%;
+}
+
+.sets {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.keepers,
+.midfielders,
+.forwards {
+  display: flex;
+  flex-direction: column;
+}
+
+h2,
+.coach {
+  padding: 0.5rem;
+  background-color: rgb(140, 171, 140);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.coach {
+  width: 20%;
+  min-width: 50%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
